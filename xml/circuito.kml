@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+
+    <Placemark>
+      <name>Point 0.0</name>
+      <description>Start</description>
+      <Point>
+        <coordinates>7.4212327986237625,43.735288306165586,4.54</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Point 190.0</name>
+      <description>Sainte Devote</description>
+      <Point>
+        <coordinates>7.421618619285261,43.73700379827298,7.66</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Point 460.0</name>
+      <description>Beau Rivage</description>
+      <Point>
+        <coordinates>7.424904384331927,43.73747427657312,28.89</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Point 707.0</name>
+      <description>Massenet</description>
+      <Point>
+        <coordinates>7.427692821787937,43.73824749933481,40.56</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Point 856.0</name>
+      <description>Casino</description>
+      <Point>
+        <coordinates>7.427346572502073,43.739519764458386,42.99</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Point 1081.0</name>
+      <description>Mirabeau Haute</description>
+      <Point>
+        <coordinates>7.428810712547052,43.74111363150211,29.87</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Point 1210.0</name>
+      <description>Grand Hotel Hairpin</description>
+      <Point>
+        <coordinates>7.429621925227156,43.74024165569586,20.67</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Point 1292.0</name>
+      <description>Mirabeau Bas</description>
+      <Point>
+        <coordinates>7.429493318338847,43.74095639090184,13.88</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Point 1374.0</name>
+      <description>Portier</description>
+      <Point>
+        <coordinates>7.430324316694077,43.74106360044682,8.56</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Point 1740.0</name>
+      <description>Tunnel</description>
+      <Point>
+        <coordinates>7.428721677008991,43.7381760229898,14.56</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Point 1934.0</name>
+      <description>Nouvelle Chicane</description>
+      <Point>
+        <coordinates>7.4264643,43.7375104,3.46</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Point 1987.0</name>
+      <description>Nouvelle Chicane End</description>
+      <Point>
+        <coordinates>7.4259433,43.7372918,3.14</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Point 2293.0</name>
+      <description>Tabac</description>
+      <Point>
+        <coordinates>7.422222082518584,43.73677506885242,2.93</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Point 2436.0</name>
+      <description>Louis Chiron</description>
+      <Point>
+        <coordinates>7.421816476138738,43.73548130151215,2.42</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Point 2491.0</name>
+      <description>Louis Chiron End</description>
+      <Point>
+        <coordinates>7.422172618290979,43.73508816225802,2.07</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Point 2595.0</name>
+      <description>Piscine</description>
+      <Point>
+        <coordinates>7.422429832064166,43.73415176561287,2.23</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Point 2639.0</name>
+      <description>Piscine End</description>
+      <Point>
+        <coordinates>7.422241868150485,43.73377291396572,2.13</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Point 2800.0</name>
+      <description>La Rascasse</description>
+      <Point>
+        <coordinates>7.4234649,43.7326309,4.54</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Point 2899.0</name>
+      <description>Anthony Noghes</description>
+      <Point>
+        <coordinates>7.422499081831732,43.73263634463559,5.53</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Point 2957.0</name>
+      <description>Anthony Noghes End</description>
+      <Point>
+        <coordinates>7.42200443995362,43.73297231391349,4.75</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Point 3222.0</name>
+      <description>End</description>
+      <Point>
+        <coordinates>7.421237,43.7352521,4.54</coordinates>
+      </Point>
+    </Placemark>
+
+  </Document>
+</kml>
