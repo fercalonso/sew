@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name ="author" content ="Fernando Cachon Alonso" />
+    <meta name ="description" content ="Contenido sobre la F1" />
+    <meta name ="keywords" content ="circuito" />
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
+    <link rel="icon" href="multimedia/imagenes/favicon.ico" type="image/x-icon">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/circuito.js"></script>
+    <title>F1 Desktop: Circuito</title>
+    
+</head>
+<body>
+
+    <header>
+        <h1><a href="index.html" title="inicio">F1 Desktop</a></h1>
+
+        <nav> 
+            <a href="index.html" title="inicio">Inicio</a>
+            <a href="piloto.html" title="piloto">Piloto</a>
+            <a href="noticias.html" title="noticias">Noticias</a>
+            <a href="calendario.html" title="calendario">Calendario</a>
+            <a href="meteorologia.html" title="meteorologia">Meteorología</a>
+            <a class="active" href="circuito.html" title="circuito">Circuito</a>
+            <a href="viajes.html" title="viajes">Viajes</a>
+            <a href="juegos.html" title="juegos">Juegos</a>
+        </nav>
+    </header>
+
+    <p>Estás en: <a href="index.html" title="inicio">Inicio</a> >> Circuito</p>
+
+    <h2>Circuito</h2>
+
+    <section>
+        <input type="file" id="xmlInput" accept=".xml"> 
+        <div id="xmlContent"></div>
+
+        <input type="file" id="kmlInput" accept=".kml">
+        <div id="mapaKml"></div>
+
+        <input type="file" id="svgInput" accept=".svg"> 
+        <div id="svgContent"></div>
+    </section>
+</body>
+</html>

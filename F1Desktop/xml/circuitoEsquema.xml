@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <circuito  xmlns="http://www.uniovi.es"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.uniovi.es circuito.xsd " >
+        <nombre>Circuito de Monaco</nombre>
+        <caracteristicas>
+            <dato valor="3,4"> Longitud </dato>
+            <dato valor="8,7"> Anchura media </dato>
+            <dato valor="26 Mayo"> Fecha </dato>
+            <dato valor="15:00"> Hora España </dato>
+            <dato valor="78"> Vueltas </dato>
+            <dato valor="Montecarlo"> Localidad </dato>
+            <dato valor="Monaco"> Pais </dato>
+        </caracteristicas>
+        <referencias>
+            <referencia enlace="https://www.dazn.com/es-ES/news/motor/circuito-de-montecarlo-donde-esta-como-es-caracteristicas-como-llegar-y-fotos-del-escenario-del-gp-monaco-del-mundial-de-f1/c79nbs8ayvi41703gx79axz35">Articulo DAZN</referencia>
+            <referencia enlace="https://www.f1enestadopuro.com/previo-gran-premio-de-formula-1-monaco-datos-tecnicos-3/">Articulo F1 En Estado Puro</referencia>
+            <referencia enlace="https://lat.motorsport.com/f1/news/datos-y-cifras-del-gp-de-monaco-en-monte-carlo-1040839/3100214/"> Articulo Motorsport </referencia>
+        </referencias>
+
+        <fotografias>
+            <fotografia referencia="xml/imagenes/CircuitoCurva.png">
+                <title>Curva del circuito de monaco</title>
+                <altText>Famosa curva del circuito de monaco</altText>
+            </fotografia>
+
+            <fotografia referencia="xml/imagenes/CircuitoMapa.png">
+                <title>Mapa del circuito</title>
+                <altText>Mapa con los sectores del circuito destacados</altText>
+            </fotografia>
+        </fotografias>
+
+        <videos>
+
+        </videos>
+
+        <coordenadas>
+            <longitud valor="7.421618619285261"></longitud>
+            <latitud valor="43.735981656832294"></latitud>
+            <altitud valor="12.54"></altitud>
+        </coordenadas>
+
+
+        <puntos_circuito>
+
+            <punto>
+                <distancia_del_tramo>
+                    <valor>0</valor>
+                    <unidades>m</unidades>
+                </distancia_del_tramo>
+                
+                <coordenadas>
+                    <longitud valor="7.4212327986237625"></longitud>
+                    <latitud valor="43.735288306165586"></latitud>
+                    <altitud valor="4.54"></altitud>
+                </coordenadas>
+
+                <numero_sector> 1 </numero_sector>
+
+                <descripcion>
+                    Start
+                </descripcion>
+            </punto>
+
+            <punto>
+                <distancia_del_tramo>
+                    <valor>190</valor>
+                    <unidades>m</unidades>
+                </distancia_del_tramo>
+                
+                <coordenadas>
+                    <longitud valor="7.421618619285261"></longitud>
+                    <latitud valor="43.73700379827298"></latitud>
+                    <altitud valor="7.66"></altitud>
+                </coordenadas>
+
+                <numero_sector> 1 </numero_sector>
+
+                <descripcion>
+                    Sainte Devote
+                </descripcion>
+            </punto>
+
+
+            <punto>
+                <distancia_del_tramo>
+                    <valor>460</valor>
+                    <unidades>m</unidades>
+                </distancia_del_tramo>
+                
+                <coordenadas>
+                    <longitud valor="7.424904384331927"></longitud>
+                    <latitud valor="43.73747427657312"></latitud>
+                    <altitud valor="28.89"></altitud>
+                </coordenadas>
+
+                <numero_sector> 1 </numero_sector>
+
+                <descripcion>
+                    Beau Rivage
+                </descripcion>
+            </punto>
+
+            <punto>
+                <distancia_del_tramo>
+                    <valor>707</valor>
+                    <unidades>m</unidades>
+                </distancia_del_tramo>
+                
+                <coordenadas>
+                    <longitud valor="7.427692821787937"></longitud>
+                    <latitud valor="43.73824749933481"></latitud>
+                    <altitud valor="40.56"></altitud>
+                </coordenadas>
+
+                <numero_sector> 1 </numero_sector>
+
+                <descripcion>
+                    Massenet
+                </descripcion>
+            </punto>
+
+            <punto>
+                <distancia_del_tramo>
+                    <valor>856</valor>
+                    <unidades>m</unidades>
+                </distancia_del_tramo>
+                
+                <coordenadas>
+                    <longitud valor="7.427346572502073"></longitud>
+                    <latitud valor="43.739519764458386"></latitud>
+                    <altitud valor="42.99"></altitud>
+                </coordenadas>
+
+                <numero_sector> 1 </numero_sector>
+
+                <descripcion>
+                    Casino
+                </descripcion>
+            </punto>
+
+            <punto>
+                <distancia_del_tramo>
+                    <valor>1081</valor>
+                    <unidades>m</unidades>
+                </distancia_del_tramo>
+                
+                <coordenadas>
+                    <longitud valor="7.428810712547052"></longitud>
+                    <latitud valor="43.74111363150211"></latitud>
+                    <altitud valor="29.87"></altitud>
+                </coordenadas>
+
+                <numero_sector> 2 </numero_sector>
+
+                <descripcion>
+                    Mirabeau Haute
+                </descripcion>
+            </punto>
+
+            <punto>
+                <distancia_del_tramo>
+                    <valor>1210</valor>
+                    <unidades>m</unidades>
+                </distancia_del_tramo>
+                
+                <coordenadas>
+                    <longitud valor="7.429621925227156"></longitud>
+                    <latitud valor="43.74024165569586"></latitud>
+                    <altitud valor="20.67"></altitud>
+                </coordenadas>
+
+                <numero_sector> 2 </numero_sector>
+
+                <descripcion>
+                    Grand Hotel Hairpin
+                </descripcion>
+            </punto>
+
+            <punto>
+                <distancia_del_tramo>
+                    <valor>1292</valor>
+                    <unidades>m</unidades>
+                </distancia_del_tramo>
+                
+                <coordenadas>
+                    <longitud valor="7.429493318338847"></longitud>
+                    <latitud valor="43.74095639090184"></latitud>
+                    <altitud valor="13.88"></altitud>
+                </coordenadas>
+
+                <numero_sector> 2 </numero_sector>
+
+                <descripcion>
+                    Mirabeau Bas
+                </descripcion>
+            </punto>
+
+            <punto>
+                <distancia_del_tramo>
+                    <valor>1374</valor>
+                    <unidades>m</unidades>
+                </distancia_del_tramo>
+                
+                <coordenadas>
+                    <longitud valor="7.430324316694077"></longitud>
+                    <latitud valor="43.74106360044682"></latitud>
+                    <altitud valor="8.56"></altitud>
+                </coordenadas>
+
+                <numero_sector> 2 </numero_sector>
+
+                <descripcion>
+                    Portier
+                </descripcion>
+            </punto>
+
+            <punto>
+                <distancia_del_tramo>
+                    <valor>1740</valor>
+                    <unidades>m</unidades>
+                </distancia_del_tramo>
+                
+                <coordenadas>
+                    <longitud valor="7.428721677008991"></longitud>
+                    <latitud valor="43.7381760229898"></latitud>
+                    <altitud valor="14.56"></altitud>
+                </coordenadas>
+
+                <numero_sector> 2 </numero_sector>
+
+                <descripcion>
+                    Tunnel
+                </descripcion>
+            </punto>
+
+            <punto>
+                <distancia_del_tramo>
+                    <valor>1934</valor>
+                    <unidades>m</unidades>
+                </distancia_del_tramo>
+                
+                <coordenadas>
+                    <longitud valor="7.4264643"></longitud>
+                    <latitud valor="43.7375104"></latitud>
+                    <altitud valor="3.46"></altitud>
+                </coordenadas>
+
+                <numero_sector> 2 </numero_sector>
+
+                <descripcion>
+                    Nouvelle Chicane
+                </descripcion>
+            </punto>
+
+            <punto>
+                <distancia_del_tramo>
+                    <valor>1987</valor>
+                    <unidades>m</unidades>
+                </distancia_del_tramo>
+                
+                <coordenadas>
+                    <longitud valor="7.4259433"></longitud>
+                    <latitud valor="43.7372918"></latitud>
+                    <altitud valor="3.14"></altitud>
+                </coordenadas>
+
+                <numero_sector> 2 </numero_sector>
+
+                <descripcion>
+                    Nouvelle Chicane End
+                </descripcion>
+            </punto>
+
+            <punto>
+                <distancia_del_tramo>
+                    <valor>2293</valor>
+                    <unidades>m</unidades>
+                </distancia_del_tramo>
+                
+                <coordenadas>
+                    <longitud valor="7.422222082518584"></longitud>
+                    <latitud valor="43.73677506885242"></latitud>
+                    <altitud valor="2.93"></altitud>
+                </coordenadas>
+
+                <numero_sector> 2 </numero_sector>
+
+                <descripcion>
+                    Tabac
+                </descripcion>
+            </punto>
+
+            <punto>
+                <distancia_del_tramo>
+                    <valor>2436</valor>
+                    <unidades>m</unidades>
+                </distancia_del_tramo>
+                
+                <coordenadas>
+                    <longitud valor="7.421816476138738"></longitud>
+                    <latitud valor="43.73548130151215"></latitud>
+                    <altitud valor="2.42"></altitud>
+                </coordenadas>
+
+                <numero_sector> 2 </numero_sector>
+
+                <descripcion>
+                    Louis Chiron
+                </descripcion>
+            </punto>
+
+            <punto>
+                <distancia_del_tramo>
+                    <valor>2491</valor>
+                    <unidades>m</unidades>
+                </distancia_del_tramo>
+                
+                <coordenadas>
+                    <longitud valor="7.422172618290979"></longitud>
+                    <latitud valor="43.73508816225802"></latitud>
+                    <altitud valor="2.07"></altitud>
+                </coordenadas>
+
+                <numero_sector> 2 </numero_sector>
+
+                <descripcion>
+                    Louis Chiron End
+                </descripcion>
+            </punto>
+
+            <punto>
+                <distancia_del_tramo>
+                    <valor>2595</valor>
+                    <unidades>m</unidades>
+                </distancia_del_tramo>
+                
+                <coordenadas>
+                    <longitud valor="7.422429832064166"></longitud>
+                    <latitud valor="43.73415176561287"></latitud>
+                    <altitud valor="2.23"></altitud>
+                </coordenadas>
+
+                <numero_sector> 3 </numero_sector>
+
+                <descripcion>
+                    Piscine
+                </descripcion>
+            </punto>
+
+            <punto>
+                <distancia_del_tramo>
+                    <valor>2639</valor>
+                    <unidades>m</unidades>
+                </distancia_del_tramo>
+                
+                <coordenadas>
+                    <longitud valor="7.422241868150485"></longitud>
+                    <latitud valor="43.73377291396572"></latitud>
+                    <altitud valor="2.13"></altitud>
+                </coordenadas>
+
+                <numero_sector> 3 </numero_sector>
+
+                <descripcion>
+                    Piscine End
+                </descripcion>
+            </punto>
+
+
+            <punto>
+                <distancia_del_tramo>
+                    <valor>2800</valor>
+                    <unidades>m</unidades>
+                </distancia_del_tramo>
+                
+                <coordenadas>
+                    <longitud valor="7.4234649"></longitud>
+                    <latitud valor="43.7326309"></latitud>
+                    <altitud valor="4.54"></altitud>
+                </coordenadas>
+
+                <numero_sector> 3 </numero_sector>
+
+                <descripcion>
+                    La Rascasse
+                </descripcion>
+            </punto>
+
+
+            <punto>
+                <distancia_del_tramo>
+                    <valor>2899</valor>
+                    <unidades>m</unidades>
+                </distancia_del_tramo>
+                
+                <coordenadas>
+                    <longitud valor="7.422499081831732"></longitud>
+                    <latitud valor="43.73263634463559"></latitud>
+                    <altitud valor="5.53"></altitud>
+                </coordenadas>
+
+                <numero_sector> 3 </numero_sector>
+
+                <descripcion>
+                    Anthony Noghes
+                </descripcion>
+            </punto>
+
+            <punto>
+                <distancia_del_tramo>
+                    <valor>2957</valor>
+                    <unidades>m</unidades>
+                </distancia_del_tramo>
+                
+                <coordenadas>
+                    <longitud valor="7.42200443995362"></longitud>
+                    <latitud valor="43.73297231391349"></latitud>
+                    <altitud valor="4.75"></altitud>
+                </coordenadas>
+
+                <numero_sector> 3 </numero_sector>
+
+                <descripcion>
+                    Anthony Noghes End
+                </descripcion>
+            </punto>
+
+            <punto>
+                <distancia_del_tramo>
+                    <valor>3222</valor>
+                    <unidades>m</unidades>
+                </distancia_del_tramo>
+                
+                <coordenadas>
+                    <longitud valor="7.4212370"></longitud>
+                    <latitud valor="43.7352521"></latitud>
+                    <altitud valor="4.54"></altitud>
+                </coordenadas>
+
+                <numero_sector> 3 </numero_sector>
+
+                <descripcion>
+                    End
+                </descripcion>
+            </punto>
+
+
+
+
+        
+        </puntos_circuito>
+
+    </circuito>
