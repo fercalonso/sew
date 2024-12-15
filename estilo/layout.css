@@ -1,0 +1,26 @@
+/* Especificidad: (0,0,1) */
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 4em;
+}
+
+/* Especificidad: (0,0,1) */
+nav{
+    gap: 1em;
+}
+
+h1{
+    margin-left: 1em;
+}
+
+
+/* When the browser is at least 600px and above */
+@media screen and (max-width: 500px) {
+    body > p:first-of-type {
+        display: none;
+    }
+}
+
+

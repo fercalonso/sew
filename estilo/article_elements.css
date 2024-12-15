@@ -1,0 +1,15 @@
+/* Especificidad: (0,0,1) */
+main {
+    display: flex; /* Activa el modo Flexbox */
+    flex-direction: row; /* Asegura la orientación horizontal */
+    gap: 20px; /* Espaciado entre los artículos (opcional) */
+}
+
+/* Especificidad: (0,0,1) */
+article {
+    background-color: rgb(152, 193, 232);
+    padding: 16px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    text-align: center;
+}

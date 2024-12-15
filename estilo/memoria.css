@@ -1,0 +1,70 @@
+/* Estilos generales (para pantallas más grandes) */
+.memory-game {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Cuatro tarjetas por fila */
+    gap: 1em;
+    justify-content: center;
+    padding: 2em;
+}
+
+.memory-card {
+    position: relative;
+    width: 10em; /* Tamaño general */
+    height: 15em;
+    border-radius: 0.625em;
+    overflow: hidden;
+    transition: transform 0.5s;
+    transform: rotateY(0);
+}
+
+.memory-card h3, .memory-card img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+    border-radius: 0.625em;
+}
+
+.memory-card h3 {
+    background: #333;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1em;
+    text-align: center;
+}
+
+.memory-card img {
+    transform: rotateY(180deg);
+}
+
+.memory-card.flip h3 {
+    transition: transform 1s;
+    transform: rotateY(180deg);
+}
+
+.memory-card.flip img {
+    transition: transform 1s;
+    transform: rotateY(0);
+}
+
+/* Ajustes para pantallas móviles */
+@media (max-width: 780px) {
+    .memory-game {
+        grid-template-columns: repeat(4, 1fr); /* Solo dos tarjetas por fila */
+        gap: 0.5em;
+        padding: 1em;
+    }
+
+    .memory-card {
+        width: 5em; /* Tamaño reducido para móviles */
+        height: 8em; /* Proporcionalmente más pequeño */
+        border-radius: 0.5em; /* Bordes también ajustados */
+    }
+
+    .memory-card h3 {
+        font-size: 0.8em; /* Texto más pequeño */
+    }
+}
